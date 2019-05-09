@@ -31,7 +31,7 @@ ui <- shinyUI(
 
   ## Top Navigation Panel Aesthetics
   tags$head(tags$style(HTML(".navbar{background-image: linear-gradient(rgba(120, 185, 215, 0.8), rgba(15, 65, 85, 0.8) ),
-                              url(http://www.digitalstrategyconsulting.com/intelligence/140-twitter.jpg);
+                              url('twitter.jpg');
                               border-radius: 1rem;}"))),
   
   ## Background Aesthetics
