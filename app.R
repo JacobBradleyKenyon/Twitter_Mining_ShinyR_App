@@ -76,7 +76,7 @@ navbarPage(tags$span(style="color:white; font-family: Sans-Serif;", tags$strong(
                            selected="RM")),
           
                 column(12, align="center", offset=0,
-                       submitButton("Search", icon=icon('search'), width="50%"),
+                       submitButton("Search", icon=icon('search'), width="90%"),
                        tags$style(type='text/css', "#button { vertical-align- middle; height- 50px; width- 100%; font-size- 30px;}"),
                        br(),
                        HTML("<b>Enter words to search/omit separated by spaces.</b>"),br(),
@@ -87,7 +87,7 @@ navbarPage(tags$span(style="color:white; font-family: Sans-Serif;", tags$strong(
   
       ## Show a plot of the generated distribution
         mainPanel(width = 9,
-           plotOutput("distPlot", width='100%', height=500), br(),
+           plotOutput("distPlot", width='100%', 600), br(),
                   HTML("A word cloud is a visual representation of text data with the importance of each tag shown in font size or color."),br(),
                   HTML("All tweets from Twitter containing the <em>Keywords to search:</em> are collected and the <em>Max number of recent tweets</em> are then used to construct the word cloud.")
                )
