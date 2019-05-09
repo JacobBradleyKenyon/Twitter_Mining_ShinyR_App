@@ -1,6 +1,6 @@
 # Twitter_Mining_ShinyR_App
 
-Twitter mining application using RStudio and shinyR.  If one wishes to run this application on a local machine they will need to obtain the proper twitter credentials (Access Token, Access Secret, Consumer Key & Consumer Secret) using a twitter account.  Simply paste twitter credentials into the code, ensure that "app.R" and "www" folder are in the same directory, then run the code. 
+Twitter mining application using RStudio and shinyR.  If one wishes to run this application on a local machine you will need to obtain the Access token to Twitter (Access Token, Access Secret, Consumer Key & Consumer Secret) using a twitter account.  Simply paste twitter credentials into the code, ensure that "app.R" and "www" folder are in the same directory, then run the code. 
 
 If you do not have a twitter account you can follow the link below to a working example.
 # https://jacobbradleykenyon.shinyapps.io/TwitMine/
